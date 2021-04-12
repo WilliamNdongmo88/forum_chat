@@ -1,0 +1,112 @@
+body 
+{
+    background:grey;
+}
+
+#header
+{
+    background:black;
+    border-bottom:2px solid white;
+    height:50px;
+    color:white;
+    padding:10px;
+    width:99%;
+}
+
+#header img
+{
+    border:1px solid white;
+    border-radius:30px;
+    display:inline-block;
+}
+
+#header h1
+{
+    display:inline-block;
+    text-align:center;
+    width:70%;
+}
+
+#header p
+{
+    background:white;
+    width:10%;
+    height:90%;
+    color:black;
+    display:inline-block;
+    position:relative;
+    bottom:25px;
+}
+
+#blockbody
+{
+    background:darkblue;
+}
+
+#partlist 
+{
+    display:inline-block;
+    border-right:3px solid black;
+    background:darkblue;
+    color:white;
+    width:30%;
+    height:500px;
+}
+
+#partlist ul
+{
+    display:inline-block;
+    width:80%;
+}
+
+#partlist li
+{
+    display:block;
+    height:90px;
+    width:99%;
+    border-top:2px solid black;
+    font-size:1.4em;
+}
+
+#partlist li:hover
+{
+    background:darkgreen;
+}
+
+#blockcontent 
+{
+    display:inline-block;
+    width:69%;
+    background:rgba(2,4,12,0.5);
+    border:2px solid white;
+    height:500px;
+    border-radius:25px;
+}
+
+#blockmsg
+{
+    float:right;
+    width:69%;
+    position:relative;
+    bottom:30px;
+    margin-right:5px;
+}
+
+#text
+{
+    width:90%;
+    height:90%;
+    border-radius:30px 0px 0px 30px;
+    text-align:center;
+    border:2px solid white;
+    font-size:1.4em;
+}
+
+#btsend 
+{
+    width:70px;
+    height:70px;
+    border-radius:30px 100px 100px 30px;
+    position:relative;
+    bottom:30px;
+}

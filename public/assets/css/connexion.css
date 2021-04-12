@@ -1,0 +1,60 @@
+#corps
+{
+	width: 400px;
+	margin: auto;
+}
+body
+{
+	background-image: url("back.png");
+}
+section
+{
+	margin-top: 90px;
+	font-family: "Franklin Gothic Heavy";
+	
+}
+.connexion
+{
+	margin-top: 15px;
+	margin-left: 210px;
+	background-color: black;
+	border-radius: 10px;
+	color: white;
+
+}
+.connexion:hover
+{
+	transform: scale(1.1);
+	color: black;
+	background-color: white;
+}
+.connexion:focus , .connexion:active
+{
+	border:0px;
+}
+.mdp
+{
+	margin-top: 15px;
+	margin-left: 60px;
+}
+.inputMdp
+{
+	margin-top: 15px;
+	margin-left: 27px;
+}
+.ici
+{
+	margin: auto;
+	margin-top: 10px;
+	margin-left:180px;
+}
+.checkbox
+{
+	margin-left: 80px; 
+	margin-top: 15px;
+}
+.nUtilisateur
+{ 
+	margin-left: 60px;
+}
+

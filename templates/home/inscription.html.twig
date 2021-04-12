@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" href= "{{ asset('assets/css/inscription.css') }}"/>
+
+    <title>inscription</title>
+</head>
+<body>
+<div id="bloc_principale">
+    <header>
+        <p id="img_header">
+            <img src="images/f_logo.png" class="logo">
+        </p>
+
+        <p id="connexion">
+            <a href="{{ path('connexion') }}">J'ai déjà un compte</a>
+        </p>
+    </header>
+
+    <section>
+        <div id="forum_logo">
+            <img src="images/f_table.png" style="width:540px; height: 392px" >
+        </div>
+
+        <aside>
+            {{ form_start(form) }}
+
+            {{ form_end(form) }}
+        </aside>
+    </section>
+</div>
+
+
+
+
+</body>
+</html>
+
+<script>
+    function Afficher() {
+
+        var input = document.getElementById("mdp");
+
+        if (input.type === "password") { input.type = "text";}
+
+        else{ input.type = "password";}
+    }
+
+    function confirm() {
+
+        var input = document.getElementById("mdp");
+        var confirm = document.getElementById("cmdp");
+        var btval = document.getElementById("enregistrer");
+
+        if (input.value === confirm.value) { btval.type = "submit";}
+
+        else{ alert("mot de passe non identique");btval.type = "button";}
+    }
+
+</script>
